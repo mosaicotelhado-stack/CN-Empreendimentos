@@ -1,0 +1,518 @@
+:root {
+  --jacaranda-base: #3b1d14;
+  --jacaranda-escuro: #210e09;
+  --jacaranda-claro: #6b3523;
+  --ipe-champanha: #d8c3a5;
+  --ipe-amarelo: #eab308;
+  --ouro: #d4af37;
+  --ouro-brilho: #f7e387;
+  --caixa-fundo: #fffaf2;
+  --texto: #24130c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--texto);
+  line-height: 1.75;
+}
+
+/* Fundo em tons naturais da madeira Jacarandá */
+body {
+  background-color: var(--jacaranda-base);
+  background-image:
+    radial-gradient(circle at 18% 25%, rgba(107, 53, 35, 0.5), transparent 48%),
+    radial-gradient(circle at 82% 75%, rgba(33, 14, 9, 0.7), transparent 52%),
+    repeating-linear-gradient(
+      90deg,
+      rgba(33, 14, 9, 0.45) 0px,
+      rgba(33, 14, 9, 0.45) 3px,
+      rgba(107, 53, 35, 0.25) 3px,
+      rgba(107, 53, 35, 0.25) 13px,
+      rgba(59, 29, 20, 0.38) 13px,
+      rgba(59, 29, 20, 0.38) 23px
+    );
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 26px auto;
+  padding: 0 20px;
+}
+
+/* 1º Cabeçalho: Box Maior com Logo */
+.cabecalho-box {
+  background-color: #0e0604;
+  border: 4px solid var(--ipe-champanha);
+  border-radius: 14px;
+  padding: 24px 34px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+.marca-imagem {
+  width: 155px;
+  height: 155px;
+  object-fit: contain;
+  background-color: #000000;
+  border: 3px solid var(--ipe-champanha);
+  border-radius: 12px;
+  padding: 6px;
+  display: block;
+}
+
+.marca-textos {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.marca-titulo {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #aa771c, var(--ouro-brilho), var(--ouro), var(--ouro-brilho), #aa771c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.marca-subtitulo {
+  color: var(--ipe-champanha);
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.navegacao a {
+  display: inline-block;
+  color: #fff6e8;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 18px;
+  background-color: #2b140d;
+  border: 2px solid var(--ipe-champanha);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.navegacao a:hover {
+  background-color: var(--ipe-amarelo);
+  color: #210e09;
+  border-color: #210e09;
+}
+
+/* 2º Cabeçalho: Vitrine Dinâmica com Fotos dos Serviços */
+.segundo-cabecalho {
+  background-color: #1c0c08;
+  border: 4px solid var(--ipe-champanha);
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin-bottom: 26px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+}
+
+.vitrine-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  gap: 12px;
+}
+
+.vitrine-titulo {
+  color: var(--ipe-champanha);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.vitrine-controles {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-carrossel {
+  background-color: #3b1d14;
+  color: var(--ipe-champanha);
+  border: 2px solid var(--ipe-champanha);
+  border-radius: 8px;
+  width: 38px;
+  height: 38px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-carrossel:hover {
+  background-color: var(--ipe-amarelo);
+  color: #210e09;
+  border-color: #210e09;
+}
+
+.vitrine-trilho {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+
+.vitrine-trilho::-webkit-scrollbar {
+  display: none;
+}
+
+.card-vitrine {
+  flex: 0 0 220px;
+  background-color: #2b140d;
+  border: 2px solid var(--ipe-champanha);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card-vitrine:hover {
+  transform: translateY(-4px);
+  border-color: var(--ipe-amarelo);
+}
+
+.card-vitrine img,
+.foto-fallback {
+  width: 100%;
+  height: 135px;
+  object-fit: cover;
+  display: block;
+}
+
+.foto-fallback {
+  background: linear-gradient(135deg, #4b2418, #210e09);
+  color: var(--ipe-champanha);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.card-vitrine-legenda {
+  padding: 9px 12px;
+  color: #fffaf2;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #160906;
+  border-top: 2px solid var(--ipe-amarelo);
+}
+
+/* Layout Lado a Lado: Página Inicial / Serviço à esquerda + Caixa de Serviços ao lado */
+.layout-duas-colunas {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 26px;
+  align-items: start;
+}
+
+@media (max-width: 920px) {
+  .layout-duas-colunas {
+    grid-template-columns: 1fr;
+  }
+}
+
+.caixa {
+  background-color: var(--caixa-fundo);
+  border: 4px solid var(--ipe-champanha);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.42);
+}
+
+.caixa h1 {
+  color: #2e150d;
+  font-size: 27px;
+  margin-bottom: 8px;
+}
+
+.caixa h2 {
+  color: #2e150d;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.caixa h3 {
+  color: #2e150d;
+  font-size: 18.5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.caixa p {
+  font-size: 16.5px;
+  color: #2b1810;
+  text-align: justify;
+}
+
+/* Divisão de parágrafos na cor do Ipê Amarelo */
+.divisor-amarelo {
+  border: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--ipe-amarelo), #facc15, rgba(234, 179, 8, 0.25));
+  margin: 18px 0;
+  border-radius: 2px;
+}
+
+/* Galeria de 3 fotos dentro de cada página de serviço */
+.galeria-servico {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
+@media (max-width: 680px) {
+  .galeria-servico {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Galeria de 4 fotos na caixa de Construção Pré-Moldada no rodapé */
+.galeria-premoldada {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
+@media (max-width: 960px) {
+  .galeria-premoldada {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .galeria-premoldada {
+    grid-template-columns: 1fr;
+  }
+}
+
+.item-galeria {
+  border: 3px solid var(--ipe-champanha);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #210e09;
+  cursor: pointer;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.item-galeria:hover {
+  transform: scale(1.03);
+  border-color: var(--ipe-amarelo);
+}
+
+.item-galeria img,
+.item-galeria .foto-fallback {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+
+.item-galeria figcaption {
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fffaf2;
+  background-color: #2b140d;
+  text-align: center;
+}
+
+/* Caixa de Serviços Lateral */
+.grade-acesso {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 11px;
+  margin-top: 10px;
+}
+
+.botao-servico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #3b1d14;
+  color: #fffaf2;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--ipe-champanha);
+  font-weight: 700;
+  font-size: 15.5px;
+  transition: all 0.2s ease;
+}
+
+.botao-servico-sub {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ipe-champanha);
+  margin-top: 2px;
+}
+
+.botao-servico:hover,
+.botao-servico.ativo {
+  background-color: var(--ipe-amarelo);
+  color: #210e09;
+  border-color: #210e09;
+  transform: translateX(4px);
+}
+
+.botao-servico:hover .botao-servico-sub,
+.botao-servico.ativo .botao-servico-sub {
+  color: #210e09;
+}
+
+/* Rodapé com Caixa de Construção Pré-Moldada */
+.rodape-site {
+  margin-top: 30px;
+}
+
+.grade-vantagens-premoldada {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 12px;
+}
+
+@media (max-width: 760px) {
+  .grade-vantagens-premoldada {
+    grid-template-columns: 1fr;
+  }
+}
+
+.item-vantagem {
+  background-color: #fdf5e6;
+  border-left: 5px solid var(--ipe-amarelo);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+/* Modal Lightbox para ampliar foto ao clicar */
+.lightbox-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(14, 6, 4, 0.92);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.lightbox-modal.aberto {
+  display: flex;
+}
+
+.lightbox-conteudo {
+  max-width: 900px;
+  width: 100%;
+  background: #fffaf2;
+  color: #24130c;
+  border: 4px solid var(--ipe-champanha);
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.65);
+}
+
+.lightbox-conteudo img {
+  max-width: 100%;
+  max-height: 62vh;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 2px solid #210e09;
+  background-color: #140805;
+  display: block;
+  margin: 0 auto 14px auto;
+}
+
+.lightbox-titulo {
+  color: #2e150d;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.lightbox-descricao {
+  color: #2b1810;
+  font-size: 15px;
+  line-height: 1.65;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.lightbox-fechar-aviso {
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #6b3523;
+  text-align: right;
+}
+
+/* Botão Flutuante WhatsApp (Número oculto) */
+.whatsapp-flutuante {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25d366;
+  color: #ffffff;
+  border: 3px solid var(--ipe-champanha);
+  border-radius: 50px;
+  padding: 13px 22px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.whatsapp-flutuante:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.04);
+}
+
+.whatsapp-flutuante svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
