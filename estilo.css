@@ -516,3 +516,32 @@ body {
   height: 24px;
   fill: #ffffff;
 }
+/* Proteção geral para nada vazar da tela no celular */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajustes automáticos para telas de celular */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* Evita bug do fundo no celular */
+    overflow-x: hidden;            /* Impede a tela de arrastar para o lado */
+  }
+
+  .container {
+    margin: 12px auto;
+    padding: 0 12px;
+  }
+
+  .cabecalho-box {
+    padding: 16px;
+    gap: 14px;
+    justify-content: center;
+    text-align: center;
+  }
+}
