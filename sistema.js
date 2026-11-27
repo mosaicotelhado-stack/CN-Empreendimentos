@@ -9,19 +9,19 @@
         "Com cronograma físico-financeiro transparente e supervisão técnica contínua, entregamos edificações estruturalmente sólidas, eficientes sob o ponto de vista construtivo e preparadas para longa vida útil com baixa incidência de patologias.",
       fotos: [
         {
-          src: "fotosconstrucao-1.jpg",
+          src: "fotos/fotosconstrucao-1.jpg",
           legenda: "Execução estrutural e fundação",
           descricaoTecnica:
             "Etapa inicial crítica da edificação, abrangendo conferência de gabarito, armação de aço conforme especificação de projeto, formas travadas no prumo e lançamento de concreto com adensamento adequado para evitar segregação e ninhos de concretagem."
         },
         {
-          src: "fotosconstrucao-2.jpg",
+          src: "fotos/fotosconstrucao-2.jpg",
           legenda: "Obra residencial em andamento",
           descricaoTecnica:
             "Fase de elevação de vedações, vergas e contravergas, embutimento planejado de eletrodutos e tubulações hidráulicas, além da verificação constante de níveis e alinhamentos antes da fase de revestimentos."
         },
         {
-          src: "fotosconstrucao-3.jpg",
+          src: "fotos/fotosconstrucao-3.jpg",
           legenda: "Acabamento externo e fachada",
           descricaoTecnica:
             "Composição de envoltória externa com atenção à estanqueidade, caimento correto de pingadeiras e rufos, preparo de substrato e aplicação de sistemas de acabamento resistentes à radiação UV e à ação das intempéries."
@@ -37,19 +37,19 @@
         "Aliamos precisão executiva e zelo pelos ambientes adjacentes, entregando espaços atualizados em funcionalidade, iluminação, ergonomia e padrão de acabamento.",
       fotos: [
         {
-          src: "fotosreforma-1.jpg",
+          src: "fotos/fotosreforma-1.jpg",
           legenda: "Modernização de ambientes internos",
           descricaoTecnica:
             "Readequação de layout interno com regularização de pisos e paredes, revisão de pontos elétricos e hidráulicos e padronização de acabamentos para ampliar a fluidez de circulação e o aproveitamento da luz natural."
         },
         {
-          src: "fotosreforma-2.jpg",
+          src: "fotos/fotosreforma-2.jpg",
           legenda: "Revestimentos e acabamentos finos",
           descricaoTecnica:
             "Assentamento com argamassa adequada ao formato e absorção da peça, controle rigoroso de juntas de dilatação, nivelamento com cunhas e espaçadores e rejuntamento técnico para evitar desplacamentos e infiltrações."
         },
         {
-          src: "fotosreforma-3.jpg",
+          src: "fotos/fotosreforma-3.jpg",
           legenda: "Renovação de área gourmet",
           descricaoTecnica:
             "Adequação de bancadas, pontos de água fria/quente, exaustão e circuitos elétricos dedicados para equipamentos de cocção, garantindo segurança operacional, resistência a gordura e umidade e estética integrada ao lazer."
@@ -65,19 +65,19 @@
         "Intervenções técnicas pontuais e periódicas protegem o investimento do proprietário e asseguram condições seguras de uso contínuo em imóveis residenciais, comerciais e condomínios.",
       fotos: [
         {
-          src: "fotosmanutencao-1.jpg",
+          src: "fotos/fotosmanutencao-1.jpg",
           legenda: "Manutenção preventiva predial",
           descricaoTecnica:
             "Inspeção sistemática de coberturas, calhas, rufos, juntas e áreas expostas para eliminar obstruções, microfissuras e pontos de infiltração antes que comprometam forros, pintura ou armaduras internas."
         },
         {
-          src: "fotosmanutencao-2.jpg",
+          src: "fotos/fotosmanutencao-2.jpg",
           legenda: "Revisão hidráulica e elétrica",
           descricaoTecnica:
             "Verificação de registros, válvulas, conexões, quadros de distribuição, disjuntores, aterramento e isolamentos, corrigindo vazamentos ocultos, quedas de pressão e aquecimentos anormais em circuitos."
         },
         {
-          src: "fotosmanutencao-3.jpg",
+          src: "fotos/fotosmanutencao-3.jpg",
           legenda: "Reparos estruturais e pintura",
           descricaoTecnica:
             "Tratamento localizado de fissuras e desplacamentos, limpeza e proteção de superfícies, aplicação de seladores/fundos preparadores e demãos de tinta conforme o ambiente, restaurando proteção e uniformidade visual."
@@ -93,19 +93,19 @@
         "Utilizamos fixações resistentes à corrosão (como parafusos bicromatizados, zincados de alta camada ou aço inox em áreas litorâneas/piscinas) e tratamentos de superfície específicos para exposição externa.",
       fotos: [
         {
-          src: "fotosdecks-1.jpg",
+          src: "fotos/fotosdecks-1.jpg",
           legenda: "Deck em madeira nobre para piscina",
           descricaoTecnica:
             "Estrutura assentada sobre base nivelada com caimento para drenagem, mantendo afastamento uniforme entre réguas para absorver variações de umidade e respingos de água tratada sem empenamentos severos."
         },
         {
-          src: "fotosdecks-2.jpg",
+          src: "fotos/fotosdecks-2.jpg",
           legenda: "Varanda revestida com alinhamento fino",
           descricaoTecnica:
             "Paginação alinhada ao eixo principal da varanda com emendas alternadas e topo de peças selado, garantindo pisada firme, continuidade visual e fácil acesso para limpeza e inspeção."
         },
         {
-          src: "fotosdecks-3.jpg",
+          src: "fotos/fotosdecks-3.jpg",
           legenda: "Acabamento e proteção contra sol e chuva",
           descricaoTecnica:
             "Preparação por lixamento progressivo e aplicação de stain ou óleo impregnante com filtro UV e fungicida, preservando a porosidade natural da madeira e facilitando futuras manutenções sem descascamento em placas."
@@ -121,19 +121,19 @@
         "As ligações estruturais são executadas com encaixes de carpintaria, ferragens reforçadas e ancoragem firme na base, garantindo estabilidade geométrica e estética limpa.",
       fotos: [
         {
-          src: "fotospergolados-1.jpg",
+          src: "fotos/fotospergolados-1.jpg",
           legenda: "Pergolado estrutural em madeira maciça",
           descricaoTecnica:
             "Conjunto estrutural dimensionado para suportar esforços de flexão e flambagem, com prumo conferido, esquadro rigoroso e ancoragem segura para transmitir cargas à fundação ou laje com estabilidade."
         },
         {
-          src: "fotospergolados-2.jpg",
+          src: "fotos/fotospergolados-2.jpg",
           legenda: "Cobertura para área gourmet e jardim",
           descricaoTecnica:
             "Distribuição calculada do espaçamento entre caibros para dosar sombra e luminosidade ou apoiar cobertura protetora com caimento adequado, integrando conforto térmico à área externa."
         },
         {
-          src: "fotospergolados-3.jpg",
+          src: "fotos/fotospergolados-3.jpg",
           legenda: "Detalhes de encaixe e verniz náutico",
           descricaoTecnica:
             "Junções usinadas com precisão, tratamento das faces de topo e acabamento protetor de alta resistência ao tempo que realça os veios da madeira e retarda o ressecamento superficial."
@@ -149,19 +149,19 @@
         "A estrutura e os degraus são fixados com precisão para eliminar rangidos, vibrações ou folgas, oferecendo subida e descida seguras em residências, sobrados e espaços comerciais.",
       fotos: [
         {
-          src: "fotosescadas-1.jpg",
+          src: "fotos/fotosescadas-1.jpg",
           legenda: "Escada sob medida em madeira nobre",
           descricaoTecnica:
             "Degraus fabricados sob medida com tolerância dimensional estreita, acabamento antiderrapante/acetinado adequado ao uso interno e encaixe firme na estrutura portante para evitar folgas e ruídos."
         },
         {
-          src: "fotosescadas-2.jpg",
+          src: "fotos/fotosescadas-2.jpg",
           legenda: "Degraus estruturados com guarda-corpo",
           descricaoTecnica:
             "Fixação reforçada dos montantes e balaústres ao longo dos lances e patamares, dimensionada para resistir a esforços horizontais de apoio e prevenir vãos inseguros."
         },
         {
-          src: "fotosescadas-3.jpg",
+          src: "fotos/fotosescadas-3.jpg",
           legenda: "Acabamento artesanal e ergonomia",
           descricaoTecnica:
             "Arredondamento suave de quinas vivas, lixamento fino e proporção uniforme entre espelhos e pisos, proporcionando conforto biomecânico na passada e visual refinado em toda a extensão."
@@ -177,19 +177,19 @@
         "O sistema permite embutir luminárias, sancas, cortineiros, registros e passagens técnicas de forma organizada, mantendo alçapões de inspeção onde necessário para manutenção futura.",
       fotos: [
         {
-          src: "fotosrebaixamento-1.jpg",
+          src: "fotos/fotosrebaixamento-1.jpg",
           legenda: "Forro em drywall com sanca iluminada",
           descricaoTecnica:
             "Estrutura metálica nivelada a laser com recorte geométrico preciso para sanca, permitindo instalação limpa de fitas de LED e difusão indireta de luz sem sombras indesejadas no forro."
         },
         {
-          src: "fotosrebaixamento-2.jpg",
+          src: "fotos/fotosrebaixamento-2.jpg",
           legenda: "Nivelamento a laser e iluminação embutida",
           descricaoTecnica:
             "Referência altimétrica uniforme em todo o ambiente, com reforço nos pontos de fixação de luminárias embutidas e passagem protegida de cabos longe de fontes excessivas de calor."
         },
         {
-          src: "fotosrebaixamento-3.jpg",
+          src: "fotos/fotosrebaixamento-3.jpg",
           legenda: "Acabamento liso para salas e suítes",
           descricaoTecnica:
             "Tratamento de juntas com fita e massa apropriada em múltiplas demãos e lixamento técnico, gerando superfície contínua e homogênea pronta para pintura sem marcas de emenda."
@@ -205,19 +205,19 @@
         "Oferecemos relatórios claros ao proprietário sobre o estado do imóvel, prioridades de intervenção e custos previstos, protegendo o valor de mercado e a integridade física do patrimônio.",
       fotos: [
         {
-          src: "fotosadministracao-1.jpg",
+          src: "fotos/fotosadministracao-1.jpg",
           legenda: "Vistoria técnica e conservação predial",
           descricaoTecnica:
             "Avaliação metódica de paredes, pisos, esquadrias, coberturas e instalações para registrar o estado real do imóvel, antecipar demandas corretivas e documentar condições de entrega ou recebimento."
         },
         {
-          src: "fotosadministracao-2.jpg",
+          src: "fotos/fotosadministracao-2.jpg",
           legenda: "Gestão patrimonial de imóveis residenciais",
           descricaoTecnica:
             "Coordenação de rotinas de conservação, limpeza técnica e pequenas adequações necessárias para manter o imóvel habitável, valorizado e pronto para locação ou uso próprio."
         },
         {
-          src: "fotosadministracao-3.jpg",
+          src: "fotos/fotosadministracao-3.jpg",
           legenda: "Acompanhamento de manutenção contínua",
           descricaoTecnica:
             "Monitoramento da execução de serviços técnicos e preventivos com checagem de qualidade final, evitando improvisos, interrupções prolongadas e gastos emergenciais evitáveis."
@@ -233,19 +233,19 @@
         "A inspeção periódica do conjunto motobomba, filtro, válvulas, ralos e dispositivos de segurança assegura circulação eficiente da água e operação confiável durante todo o ano.",
       fotos: [
         {
-          src: "fotospiscinas-1.jpg",
+          src: "fotos/fotospiscinas-1.jpg",
           legenda: "Tratamento químico e água cristalina",
           descricaoTecnica:
             "Medição de parâmetros e dosagem criteriosa de corretivos e sanitizantes para manter pH e desinfecção em faixas equilibradas, prevenindo proliferação de algas, irritação ocular/cutânea e incrustações."
         },
         {
-          src: "fotospiscinas-2.jpg",
+          src: "fotos/fotospiscinas-2.jpg",
           legenda: "Aspiração e limpeza completa",
           descricaoTecnica:
             "Escovação de paredes e degraus, limpeza de borda e cesto do pré-filtro/skimmer e aspiração de detritos decantados, garantindo transparência visual e menor carga orgânica na água."
         },
         {
-          src: "fotospiscinas-3.jpg",
+          src: "fotos/fotospiscinas-3.jpg",
           legenda: "Revisão de bombas e filtros",
           descricaoTecnica:
             "Verificação de pressão do filtro, retrolavagem quando indicada, checagem de vedações, ruídos e funcionamento da bomba para assegurar vazão adequada e filtragem eficaz."
@@ -261,19 +261,19 @@
         "Harmonizamos materiais nobres, painéis, cortinas, tapetes e peças ornamentais para refletir a identidade do morador ou da marca, unindo estética apurada, durabilidade dos materiais e praticidade no uso diário.",
       fotos: [
         {
-          src: "fotosdecoracao-1.jpg.jpg",
+          src: "fotos/fotosdecoracao-1.jpg",
           legenda: "Composição espacial e fluxo de circulação",
           descricaoTecnica:
             "Organização do mobiliário principal e complementar respeitando distâncias ergonômicas de passagem, campos visuais abertos e proporção entre pé-direito, peças de destaque e áreas livres."
         },
         {
-          src: "fotosdecoracao-2.jpg.jpg",
+          src: "fotos/fotosdecoracao-2.jpg",
           legenda: "Paleta de cores, texturas e materiais",
           descricaoTecnica:
             "Equilíbrio entre superfícies foscas e acetinadas, tons quentes e neutros, fibras naturais e detalhes metálicos ou em madeira, criando contraste controlado e unidade visual em todo o ambiente."
         },
         {
-          src: "fotosdecoracao-3.jpg.jpg",
+          src: "fotos/fotosdecoracao-3.jpg",
           legenda: "Iluminação cênica e acabamentos finais",
           descricaoTecnica:
             "Combinação de luz indireta, pontos focais sobre obras, texturas ou bancadas e regulagem de intensidade para valorizar volumes e criar atmosferas distintas conforme o momento do dia."
@@ -325,25 +325,25 @@
     ],
     fotos: [
       {
-        src: "fotospremoldado-1.jpg",
+        src: "fotos/fotospremoldado-1.jpg",
         legenda: "Fabricação e cura controlada de peças",
         descricaoTecnica:
           "Moldagem de componentes estruturais em ambiente controlado com conferência de armaduras, cobrimento nominal e cura adequada, assegurando uniformidade geométrica e desempenho mecânico consistente."
       },
       {
-        src: "fotospremoldado-2.jpg",
+        src: "fotos/fotospremoldado-2.jpg",
         legenda: "Transporte e logística de elementos",
         descricaoTecnica:
           "Movimentação e transporte planejados com apoio, calçamento e amarração adequados para evitar esforços indevidos, fissuração precoce ou avarias nas bordas das peças até o local da obra."
       },
       {
-        src: "fotospremoldado-3.jpg",
+        src: "fotos/fotospremoldado-3.jpg",
         legenda: "Içamento e montagem estrutural",
         descricaoTecnica:
           "Posicionamento milimétrico com equipamento de elevação, conferência de prumo, nível e esquadro e execução de ligações, grauteamentos ou soldas conforme projeto estrutural."
       },
       {
-        src: "fotospremoldado-4.jpg",
+        src: "fotos/fotospremoldado-4.jpg",
         legenda: "Estrutura concluída e integração de fechamentos",
         descricaoTecnica:
           "Pórticos e lajes estabilizados prontos para receber vedações, coberturas e instalações, combinando rapidez de execução, limpeza de canteiro e excelente estabilidade estrutural."
